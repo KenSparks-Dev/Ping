@@ -2,7 +2,11 @@
   #ExampleImage
 \*------------------------------------*/
 
-
+.illustration{
+  display:flex;
+  width:85%;
+  margin:auto
+}
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { }
 
