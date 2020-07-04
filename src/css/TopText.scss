@@ -1,0 +1,110 @@
+/*------------------------------------*\
+  #TopText
+\*------------------------------------*/
+$paraSpanColor:hsl(223, 87%, 63%);
+$ParaOneColor:hsl(0, 0%, 59%);
+$ParaTwoSpanColor:hsl(0, 100%, 0%);
+
+* {
+	margin: 0;
+	padding: 0;
+}
+.top-text {
+  padding-top: 20%;
+  
+  &__title {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 35px;
+  }
+
+  &__title span {
+    color: $paraSpanColor;
+  }
+
+  &__para-one {
+    font-size: 1.4em;
+    font-weight: 300;
+    color: $ParaOneColor;
+    margin-bottom: 15px;
+  }
+
+  &__para-one span {
+    font-weight: 700;
+    color: $ParaTwoSpanColor;
+  }
+
+  &__para-two {
+    font-size: .8em;
+    font-weight: 300;
+    margin-bottom: 25px;
+  }
+}
+
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .top-text {
+    padding-top: 10%;
+
+    &__title {
+      font-size: 1.8em;
+    }
+  
+    &__para-one {
+      font-size: 2.0em;
+      font-weight: 300;
+      color: $ParaOneColor;
+      margin-bottom: 15px;
+    }
+  
+    &__para-two {
+      font-size: 1.2em;
+    }
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 1024px) {
+  .top-text {
+    padding-top: 5%;
+
+    &__title {
+      font-size: 2em;
+    }
+  
+    &__para-one {
+      font-size: 2.8em;
+      font-weight: 300;
+      color: $ParaOneColor;
+      margin-bottom: 15px;
+    }
+  
+    &__para-two {
+      font-size: 1.3em;
+    }
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .top-text {
+    
+    &__title {
+      font-size: 2.4em;
+    }
+  
+    &__para-one {
+      font-size: 3em;
+      font-weight: 300;
+      color: $ParaOneColor;
+      margin-bottom: 15px;
+    }
+  
+    &__para-two {
+      font-size: 1.6em;
+    }
+  }
+}

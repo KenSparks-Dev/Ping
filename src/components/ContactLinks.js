@@ -1,12 +1,18 @@
-import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import React from 'react';
+import '../css/ContactLinks.scss';
+import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import { faTwitter, faGithub, faInstagram} from '@fortawesome/free-brands-svg-icons';
 
-function ContactLinks() {
+
+function ContactLinks({copyright}) {
   return (
     <div>
-      <FontAwesomeIcon icon="facebook-f" />
-      <FontAwesomeIcon icon="twitter" />
-      <FontAwesomeIcon icon="instagram-square" />
+      <div className="contactLinks">
+      <FontAwesomeIcon className="contactLinks__icon" icon={faGithub} />
+      <FontAwesomeIcon className="contactLinks__icon" icon={faTwitter} />
+      <FontAwesomeIcon className="contactLinks__icon" icon={faInstagram} />
+    </div>
+      <p className="copyright">{copyright}</p>
     </div>
   )
 }

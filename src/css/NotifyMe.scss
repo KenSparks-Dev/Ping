@@ -1,0 +1,131 @@
+/*------------------------------------*\
+  #NotifyMe
+\*------------------------------------*/
+$buttonBackgroundColor:hsl(223, 87%, 63%);
+$InputBorderColor:hsl(0, 0%, 59%);
+$buttonTextColor:hsl(0, 100%, 100%);
+*{
+  margin:0;
+  padding:0;
+}
+
+.form{
+  display:flex;
+  flex-direction: column;
+  width:100%;
+  margin:auto;
+
+  &__input{
+    flex:1;
+    padding:10px 2px;
+    border-radius:18px;
+    border:1px $InputBorderColor solid;
+    width:250px;
+    margin:auto;
+    margin-bottom:10px
+  }
+
+  &__button{
+    flex:1;
+    background-color:$buttonBackgroundColor;
+    color:$buttonTextColor;
+    border-radius:18px;
+    border:none;
+    padding:10px 35px;
+    font-weight:600;
+    width:250px;
+    margin:auto;
+    margin-bottom:60px;
+
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .form{
+    display:flex;
+    flex-direction:row;
+    width:50%;
+    margin:auto;
+    margin-bottom:50px;
+
+  
+    &__input{
+      flex:3;
+      padding:15px 15px;
+      border-radius:40px;
+      margin:auto;
+      margin-right:10px;
+
+    }
+  
+    &__button{
+      flex:1;
+      padding:15px 20px;
+      font-weight:600;
+      border-radius:70px;
+      margin-bottom:0px;
+      margin:auto;
+    }
+  }
+  
+}
+
+/* // Large devices (desktops, 1024px and up) */
+@media (min-width: 1024px) { 
+  .form{
+    display:flex;
+    flex-direction:row;
+    width:50%;
+    margin:auto;
+    margin-bottom:70px;
+
+    &__input{
+      flex:3;
+      padding:15px 15px;
+      border-radius:40px;
+      margin:auto;
+      margin-right:10px;
+
+    }
+  
+    &__button{
+      flex:1;
+      padding:15px 20px;
+      font-weight:600;
+      border-radius:70px;
+      margin-bottom:0px;
+      margin:auto;
+    }
+  }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .form{
+      display:flex;
+      flex-direction:row;
+      width:40%;
+      margin:auto;
+      margin-bottom:50px;
+  
+    
+      &__input{
+        flex:3;
+        padding:20px 15px;
+        border-radius:70px;
+        margin:auto;
+        margin-right:10px;
+  
+      }
+    
+      &__button{
+        flex:1;
+        padding:20px 20px;
+        font-weight:600;
+        border-radius:70px;
+
+        margin-bottom:0px;
+        margin:auto;
+      }
+    }
+}

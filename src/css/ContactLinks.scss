@@ -1,0 +1,84 @@
+/*------------------------------------*\
+  #ContactLinks
+\*------------------------------------*/
+$iconBackgroundColor:hsl(223, 87%, 63%);
+$copyWriteTextColor:hsl(0, 0%, 59%);
+
+*{
+  margin:0;
+  padding:0;
+}
+
+.contactLinks{
+  color:$iconBackgroundColor;
+  display:flex;
+  justify-content: center;
+  align-items: flex-end;
+  height:25vh;
+  overflow-y: hidden;
+  margin-bottom:10px;
+
+  &__icon{
+    border:1px $iconBackgroundColor solid;
+    border-radius:75%;
+    padding:5px;
+    margin:10px;
+  }
+}
+
+.copyright{
+  color:$copyWriteTextColor;
+  font-size:.7em;
+}
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .contactLinks{
+    color:$iconBackgroundColor;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    height:32vh;
+    overflow-y: hidden;
+    margin-bottom:10px;
+  
+    &__icon{
+      border:1px $iconBackgroundColor solid;
+      border-radius:75%;
+      padding:5px;
+      margin:10px;
+    }
+  }
+  
+  .copyright{
+    color:$copyWriteTextColor;
+    font-size:.7em;
+  }
+}
+
+/* // Large devices (desktops, 1024px and up) */
+@media (min-width: 1024px) { }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .contactLinks{
+    color:$iconBackgroundColor;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    height:15vh;
+    overflow-y: hidden;
+    margin-bottom:15px;
+  
+    &__icon{
+      border:1px $iconBackgroundColor solid;
+      border-radius:75%;
+      padding:5px;
+      margin:10px;
+    }
+  }
+  
+  .copyright{
+    color:$copyWriteTextColor;
+    font-size:.8em;
+  }
+ }
