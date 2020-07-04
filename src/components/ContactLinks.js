@@ -17,5 +17,4 @@ function ContactLinks({copyright}) {
   )
 }
 
-
 export default ContactLinks
