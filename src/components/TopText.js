@@ -10,5 +10,4 @@ function TopText ({title, period, paraOne, paraTwo, soon}) {
     )
   }
 
-
 export default TopText
