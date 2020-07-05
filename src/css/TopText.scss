@@ -10,7 +10,7 @@ $ParaTwoSpanColor:hsl(0, 100%, 0%);
 	padding: 0;
 }
 .top-text {
-  padding-top: 20%;
+  margin-top:70px;
   
   &__title {
     font-size: 1.5em;
@@ -47,7 +47,7 @@ $ParaTwoSpanColor:hsl(0, 100%, 0%);
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .top-text {
-    padding-top: 10%;
+    margin-top: 70px;
 
     &__title {
       font-size: 1.8em;
@@ -69,7 +69,7 @@ $ParaTwoSpanColor:hsl(0, 100%, 0%);
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 1024px) {
   .top-text {
-    padding-top: 5%;
+    margin-top:70px;
 
     &__title {
       font-size: 2em;
@@ -91,9 +91,10 @@ $ParaTwoSpanColor:hsl(0, 100%, 0%);
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .top-text {
-    
+    margin-top:50px;
+
     &__title {
-      font-size: 2.4em;
+      font-size: 2em;
     }
   
     &__para-one {
