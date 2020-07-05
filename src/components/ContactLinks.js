@@ -6,7 +6,7 @@ import { faTwitter, faGithub, faInstagram} from '@fortawesome/free-brands-svg-ic
 
 function ContactLinks({copyright}) {
   return (
-    <div>
+    <div className="contact">
       <div className="contactLinks">
       <FontAwesomeIcon className="contactLinks__icon" icon={faGithub} />
       <FontAwesomeIcon className="contactLinks__icon" icon={faTwitter} />
