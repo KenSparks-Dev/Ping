@@ -71,30 +71,30 @@ $buttonTextColor:#ffffff;
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-  .form{
-    display:flex;
-    flex-direction:row;
-    width:50%;
-    margin:auto;
-    margin-bottom:70px;
+  // .form{
+  //   display:flex;
+  //   flex-direction:row;
+  //   width:50%;
+  //   margin:auto;
+  //   margin-bottom:70px;
 
-    &__input{
-      flex:3;
-      padding:15px 15px;
-      border-radius:40px;
-      margin:auto;
-      margin-right:10px;
-    }
+  //   &__input{
+  //     flex:3;
+  //     padding:15px 15px;
+  //     border-radius:40px;
+  //     margin:auto;
+  //     margin-right:10px;
+  //   }
   
-    &__button{
-      flex:1;
-      padding:15px 20px;
-      font-weight:600;
-      border-radius:70px;
-      margin-bottom:0px;
-      margin:auto;
-    }
-  }
+  //   &__button{
+  //     flex:1;
+  //     padding:15px 20px;
+  //     font-weight:600;
+  //     border-radius:70px;
+  //     margin-bottom:0px;
+  //     margin:auto;
+  //   }
+  // }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
