@@ -1,13 +1,14 @@
 /*------------------------------------*\
   #ContactLinks
 \*------------------------------------*/
-$iconBackgroundColor:hsl(223, 87%, 63%);
-$copyWriteTextColor:hsl(0, 0%, 59%);
+$iconBackgroundColor:#4F7DF3;
+$copyWriteTextColor:#969696;
 
 *{
   margin:0;
   padding:0;
 }
+
 .contact{
   position: static;
   margin-left: auto;

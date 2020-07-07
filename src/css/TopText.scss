@@ -1,15 +1,16 @@
 /*------------------------------------*\
   #TopText
 \*------------------------------------*/
-$paraSpanColor:hsl(223, 87%, 63%);
-$ParaOneColor:hsl(0, 0%, 59%);
-$ParaTwoSpanColor:hsl(0, 100%, 0%);
+$paraSpanColor:#4F7DF3;
+$ParaOneColor:#969696;
+$ParaTwoSpanColor:#000000;
 
 * {
 	margin: 0;
 	padding: 0;
 }
-.top-text {
+
+.text-block{
   padding-top:70px;
   
   &__title {
@@ -42,11 +43,9 @@ $ParaTwoSpanColor:hsl(0, 100%, 0%);
   }
 }
 
-
-
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .top-text {
+  .text-block{
     padding-top: 70px;
 
     &__title {
@@ -67,8 +66,8 @@ $ParaTwoSpanColor:hsl(0, 100%, 0%);
 }
 
 /* // Large devices (desktops, 992px and up) */
-@media (min-width: 1024px) {
-  .top-text {
+@media (min-width: 992px) {
+  .text-block{
     padding-top:70px;
 
     &__title {
@@ -90,7 +89,7 @@ $ParaTwoSpanColor:hsl(0, 100%, 0%);
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-  .top-text {
+  .text-block{
     padding-top:50px;
 
     &__title {

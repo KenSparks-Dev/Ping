@@ -5,14 +5,15 @@
 .illustration{
   display:flex;
   width:85%;
-  margin:auto
+  margin:auto;
 }
+
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .illustration{
     display:flex;
     width:60%;
-    margin:auto
+    margin:auto;
   }
  }
 
@@ -21,7 +22,7 @@
   .illustration{
     display:flex;
     width:65%;
-    margin:auto
+    margin:auto;
   }
  }
 
@@ -30,6 +31,6 @@
   .illustration{
     display:flex;
     width:45%;
-    margin:auto
+    margin:auto;
   }
 }

@@ -1,14 +1,14 @@
-import React from 'react'
-import '../css/NotifyMe.scss'
+import React from 'react';
+import '../css/NotifyMe.scss';
 
-function NotifyMe({button}) {
+function NotifyMe({buttonCopy}) {
   return (
-    <div>
-      <form className="form">
-        <input className="form__input" type="email" placeholder="Your email address"/>
-        <button className="form__button">{button}</button>
-      </form>
-    </div>
+  <div>
+    <form className="form">
+      <input className="form__input" type="email" placeholder="Your email address"/>
+      <button className="form__button">{buttonCopy}</button>
+    </form>
+  </div>
   )
 }
 
