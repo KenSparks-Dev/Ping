@@ -1,29 +1,32 @@
 /*------------------------------------*\
   #ContactLinks
 \*------------------------------------*/
-$iconBackgroundColor:#4F7DF3;
+$iconColor:#4F7DF3;
 $copyWriteTextColor:#969696;
 
 *{
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
 }
 
 .contact{
   position: absolute;
   margin-left: auto;
   margin-right: auto;
-  left: 0;
-  right: 0;
+  left:0;
+  right:0;
   text-align: center;
-  bottom:10px;
+  bottom:25px;
 }
 
 .contactLinks{
-  color:$iconBackgroundColor;
+
+  &__link{
+    color:$iconColor
+  }
 
   &__icon{
-    border:1px $iconBackgroundColor solid;
+    border:1px $iconColor solid;
     border-radius:75%;
     padding:5px;
     margin:10px;
@@ -36,11 +39,11 @@ $copyWriteTextColor:#969696;
 }
 
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
+@media (min-width:768px) { 
   .contactLinks{
   
     &__icon{
-      border:1px $iconBackgroundColor solid;
+      border:1px $iconColor solid;
       border-radius:75%;
       padding:5px;
       margin:10px;
@@ -53,15 +56,12 @@ $copyWriteTextColor:#969696;
   }
 }
 
-/* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { }
-
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .contactLinks{    
   
     &__icon{
-      border:1px $iconBackgroundColor solid;
+      border:1px $iconColor solid;
       border-radius:75%;
       padding:5px;
       margin:10px;

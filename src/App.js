@@ -12,7 +12,7 @@ function App() {
      <TopText title='ping' period="." paraOne='We are launching' paraTwo="subscribe and get notified" soon="soon!"/>
      <NotifyMe buttonCopy="Notify Me"/>
      <ExampleImage/>
-     <ContactLinks copyright='&copy; Copyright Ping. All rights reserved.'/>
+     <ContactLinks copyright='&copy; Copyright Ping. All rights reserved.' twitter="https://twitter.com/KenSparks90" github="https://github.com/KenSparksDev/Ping" instagram="https://www.instagram.com/kensparks90/" />
     </div>
   );
 }
